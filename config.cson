@@ -7,7 +7,7 @@
     invisibles: {}
     softWrapAtPreferredLineLength: true
     softWrap: true
-    fontSize: 15
+    fontSize: 14
   core:
     ignoredNames: [
       ".git"
@@ -29,17 +29,6 @@
     showOnStartup: false
   metrics:
     userId: "6043788440efc131df7b0ab9b99103b97548b3bc"
-  linter:
-    showErrorInline: true
-    statusBar: "Show all errors"
-  "travis-ci-status":
-    personalAccessToken: "235544eefe1e731ed30fd990699aa43a85ff815e"
-    useTravisCiPro: true
-  build:
-    monocleHeight: 0.6
-    minimizedHeight: 0.1
-    saveOnBuild: true
-    panelVisibility: "Keep Visible"
   "markdown-pdf":
     rendering: "Marked"
     format: "Letter"
@@ -68,33 +57,7 @@
     panelContrast: true
     rippleAccentColor: true
     showTabIcons: "Show on active tab"
-  "autohide-tree-view":
-    showOn: "hover"
   "terminal-status": {}
   "git-plus": {}
   tabs:
     enableVcsColoring: true
-".beamer.latex.tex.text":
-  editor:
-    preferredLineLength: 128
-".latex.memoir.tex.text":
-  editor:
-    preferredLineLength: 128
-".latex.tex.text":
-  editor:
-    preferredLineLength: 128
-".latex.log.text":
-  editor:
-    preferredLineLength: 128
-".diff.source":
-  editor:
-    preferredLineLength: 128
-".c.source":
-  editor:
-    showIndentGuide: true
-".bibtex.text":
-  editor:
-    preferredLineLength: 128
-".tex.text":
-  editor:
-    preferredLineLength: 128
