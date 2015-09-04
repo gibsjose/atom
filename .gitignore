@@ -1,0 +1,14 @@
+#Ignore Packages (too large for GitHub)
+packages
+
+#Ignore compile-cache
+compile-cache
+
+#Ignore Local Storage
+storage
+
+#Ignore .apm
+.apm
+
+#Ignore .node-gyp
+.node-gyp

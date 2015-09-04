@@ -1,0 +1,100 @@
+"*":
+  editor:
+    showIndentGuide: true
+    preferredLineLength: 128
+    tabLength: 4
+    scrollPastEnd: true
+    invisibles: {}
+    softWrapAtPreferredLineLength: true
+    softWrap: true
+    fontSize: 15
+  core:
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+    themes: [
+      "atom-material-ui"
+      "atom-dark-syntax"
+    ]
+    disabledPackages: [
+      "terminal-status"
+    ]
+  "exception-reporting":
+    userId: "b44988c5-51c9-a879-6ce4-37d7ffd92869"
+  "release-notes":
+    viewedVersion: "0.94.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "6043788440efc131df7b0ab9b99103b97548b3bc"
+  linter:
+    showErrorInline: true
+    statusBar: "Show all errors"
+  "travis-ci-status":
+    personalAccessToken: "235544eefe1e731ed30fd990699aa43a85ff815e"
+    useTravisCiPro: true
+  build:
+    monocleHeight: 0.6
+    minimizedHeight: 0.1
+    saveOnBuild: true
+    panelVisibility: "Keep Visible"
+  "markdown-pdf":
+    rendering: "Marked"
+    format: "Letter"
+  minimap:
+    scrollAnimation: true
+    plugins:
+      "git-diff": true
+      "find-and-replace": true
+      selection: true
+  "tree-view":
+    sortFoldersBeforeFiles: false
+    hideIgnoredNames: true
+  "spell-check": {}
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
+    suggestionListFollows: "Word"
+    maxVisibleSuggestions: 4
+  "atom-terminal":
+    setWorkingDirectory: true
+    surpressDirectoryArgument: false
+  "markdown-preview-plus": {}
+  "atom-material-ui":
+    accentColor: "Blue"
+    compactTreeView: true
+    depth: true
+    panelContrast: true
+    rippleAccentColor: true
+    showTabIcons: "Show on active tab"
+  "autohide-tree-view":
+    showOn: "hover"
+  "terminal-status": {}
+  "git-plus": {}
+  tabs:
+    enableVcsColoring: true
+".beamer.latex.tex.text":
+  editor:
+    preferredLineLength: 128
+".latex.memoir.tex.text":
+  editor:
+    preferredLineLength: 128
+".latex.tex.text":
+  editor:
+    preferredLineLength: 128
+".latex.log.text":
+  editor:
+    preferredLineLength: 128
+".diff.source":
+  editor:
+    preferredLineLength: 128
+".c.source":
+  editor:
+    showIndentGuide: true
+".bibtex.text":
+  editor:
+    preferredLineLength: 128
+".tex.text":
+  editor:
+    preferredLineLength: 128
