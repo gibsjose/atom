@@ -7,7 +7,6 @@
     invisibles: {}
     softWrapAtPreferredLineLength: true
     softWrap: true
-    fontSize: 14
   core:
     ignoredNames: [
       ".git"
