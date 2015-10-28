@@ -8,7 +8,7 @@ git clone git@github.com/gibsjose/atom.git ~/.atom
 
 ## Install Packages from List
 ```bash
-apm install --package-file packages.txt
+apm install --packages-file packages.txt
 ```
 
 ## Save Installed Packages to List
