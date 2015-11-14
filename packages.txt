@@ -1,13 +1,13 @@
-advanced-open-file@0.12.0
+advanced-open-file@0.12.2
 atom-material-syntax@0.2.4
-atom-material-ui@0.7.1
+atom-material-ui@0.8.0
 atom-terminal@0.8.0
 auto-indent@0.5.0
 autocomplete-paths@1.0.2
 autocomplete-python@0.10.3
 color-picker@2.0.13
 file-icons@1.6.11
-git-plus@5.5.4
+git-plus@5.6.1
 language-fish-shell@1.0.2
 language-latex@0.6.1
 language-vhdl@0.7.1
