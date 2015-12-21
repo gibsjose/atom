@@ -12,3 +12,6 @@ storage
 
 #Ignore .node-gyp
 .node-gyp
+
+#Ignore blob-store directory
+blob-store/
