@@ -56,7 +56,21 @@
     panelContrast: true
     rippleAccentColor: true
     showTabIcons: "Show on active tab"
+    ui:
+      accentColor: "Blue"
+    tabs:
+      rippleAccentColor: true
+      showTabIcons: "Show on all tabs"
+    fonts: {}
+    panels:
+      depth: true
+      panelContrast: true
   "terminal-status": {}
   "git-plus": {}
   tabs:
     enableVcsColoring: true
+  "merge-conflicts":
+    gitPath: "/usr/bin/git"
+".fish.source":
+  editor:
+    preferredLineLength: 128
