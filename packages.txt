@@ -8,7 +8,7 @@ autocomplete-python@1.4.4
 color-picker@2.0.14
 file-icons@1.6.13
 git-plus@5.12.0
-language-arm@1.2.0
+language-arm@1.2.2
 language-awk@0.1.10
 language-fish-shell@1.0.2
 language-latex@0.6.1
