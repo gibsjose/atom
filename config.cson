@@ -1,13 +1,31 @@
 "*":
-  editor:
-    showIndentGuide: true
-    preferredLineLength: 128
-    tabLength: 4
-    scrollPastEnd: true
-    invisibles: {}
-    softWrapAtPreferredLineLength: true
-    softWrap: true
+  "atom-material-ui":
+    accentColor: "Blue"
+    compactTreeView: true
+    depth: true
+    fonts: {}
+    panelContrast: true
+    panels:
+      depth: true
+      panelContrast: true
+    rippleAccentColor: true
+    showTabIcons: "Show on active tab"
+    tabs:
+      rippleAccentColor: true
+      showTabIcons: "Show on all tabs"
+    ui:
+      accentColor: "Blue"
+  "atom-terminal":
+    setWorkingDirectory: true
+    surpressDirectoryArgument: false
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
+    maxVisibleSuggestions: 4
+    suggestionListFollows: "Word"
   core:
+    disabledPackages: [
+      "terminal-status"
+    ]
     ignoredNames: [
       ".git"
       ".svn"
@@ -17,60 +35,42 @@
       "atom-material-ui"
       "atom-dark-syntax"
     ]
-    disabledPackages: [
-      "terminal-status"
-    ]
+  editor:
+    invisibles: {}
+    preferredLineLength: 128
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
   "exception-reporting":
     userId: "b44988c5-51c9-a879-6ce4-37d7ffd92869"
-  "release-notes":
-    viewedVersion: "0.94.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "6043788440efc131df7b0ab9b99103b97548b3bc"
-  "markdown-pdf":
-    rendering: "Marked"
-    format: "Letter"
-  minimap:
-    scrollAnimation: true
-    plugins:
-      "git-diff": true
-      "find-and-replace": true
-      selection: true
-  "tree-view":
-    sortFoldersBeforeFiles: false
-    hideIgnoredNames: true
-  "spell-check": {}
-  "autocomplete-plus":
-    includeCompletionsFromAllBuffers: true
-    suggestionListFollows: "Word"
-    maxVisibleSuggestions: 4
-  "atom-terminal":
-    setWorkingDirectory: true
-    surpressDirectoryArgument: false
-  "markdown-preview-plus": {}
-  "atom-material-ui":
-    accentColor: "Blue"
-    compactTreeView: true
-    depth: true
-    panelContrast: true
-    rippleAccentColor: true
-    showTabIcons: "Show on active tab"
-    ui:
-      accentColor: "Blue"
-    tabs:
-      rippleAccentColor: true
-      showTabIcons: "Show on all tabs"
-    fonts: {}
-    panels:
-      depth: true
-      panelContrast: true
-  "terminal-status": {}
   "git-plus": {}
-  tabs:
-    enableVcsColoring: true
+  "markdown-pdf":
+    format: "Letter"
+    rendering: "Marked"
+  "markdown-preview-plus": {}
   "merge-conflicts":
     gitPath: "/usr/bin/git"
+  metrics:
+    userId: "6043788440efc131df7b0ab9b99103b97548b3bc"
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "git-diff": true
+      selection: true
+    scrollAnimation: true
+  "release-notes":
+    viewedVersion: "0.94.0"
+  "spell-check": {}
+  tabs:
+    enableVcsColoring: true
+  "terminal-status": {}
+  "tree-view":
+    hideIgnoredNames: true
+    sortFoldersBeforeFiles: false
+  welcome:
+    showOnStartup: false
 ".fish.source":
   editor:
     preferredLineLength: 128
