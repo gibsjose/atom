@@ -4,7 +4,7 @@ atom-material-ui@0.8.1
 atom-terminal@0.8.0
 auto-indent@0.5.0
 autocomplete-paths@1.0.2
-autocomplete-python@1.5.1
+autocomplete-python@1.5.2
 color-picker@2.1.1
 file-icons@1.6.14
 git-plus@5.12.1
