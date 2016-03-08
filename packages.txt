@@ -30,4 +30,3 @@ seti-ui@0.9.1
 sort-lines@0.14.0
 split-diff@0.6.0
 terminal-status@1.6.8
-
