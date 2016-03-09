@@ -41,8 +41,11 @@
   minimap:
     plugins:
       "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
       "git-diff": true
+      "git-diffDecorationsZIndex": 0
       selection: true
+      selectionDecorationsZIndex: 0
     scrollAnimation: true
   "release-notes":
     viewedVersion: "0.94.0"
