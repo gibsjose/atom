@@ -1,6 +1,6 @@
 advanced-open-file@0.14.3
 atom-material-syntax@0.4.3
-atom-material-ui@1.2.2
+atom-material-ui@1.2.3
 atom-terminal@0.8.0
 auto-indent@0.5.0
 autocomplete-paths@1.0.2
@@ -24,9 +24,10 @@ minimap-git-diff@4.2.0
 minimap-selection@4.4.0
 monokai@0.18.0
 octocat-syntax@0.1.5
-pdf-view@0.49.0
+pdf-view@0.50.0
 seti-syntax@0.4.1
 seti-ui@0.9.1
 sort-lines@0.14.0
 split-diff@0.6.0
 terminal-status@1.6.8
+
