@@ -37,7 +37,7 @@
     ]
   editor:
     invisibles: {}
-    preferredLineLength: 128
+    preferredLineLength: 256
     scrollPastEnd: true
     showIndentGuide: true
     softWrap: true
