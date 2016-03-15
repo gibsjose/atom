@@ -20,3 +20,8 @@
 '.active.pane':
   # Autocomplete
   'cmd-i': 'autocomplete:toggle'
+
+# Override ctags go-to and return-from declaration to not conflict with spectacle
+'.platform-darwin atom-text-editor':
+  'alt-shift-down': 'atom-ctags:go-to-declaration',
+  'alt-shift-up': 'atom-ctags:return-from-declaration'
