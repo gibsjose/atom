@@ -1,4 +1,6 @@
 "*":
+  "atom-ctags":
+    autoBuildTagsWhenActive: true
   "atom-material-ui":
     accentColor: "Blue"
     compactTreeView: true
@@ -25,11 +27,15 @@
   core:
     disabledPackages: [
       "terminal-status"
+      "symbols-view"
     ]
     ignoredNames: [
       ".git"
       ".svn"
       ".DS_Store"
+    ]
+    packagesWithKeymapsDisabled: [
+      "atom-ctags"
     ]
     themes: [
       "atom-material-ui"
