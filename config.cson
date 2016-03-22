@@ -1,6 +1,5 @@
 "*":
-  "atom-ctags":
-    autoBuildTagsWhenActive: true
+  "atom-ctags": {}
   "atom-material-ui":
     accentColor: "Blue"
     compactTreeView: true
