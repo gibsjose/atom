@@ -2,6 +2,17 @@
   "atom-ctags": {}
   "atom-material-ui":
     accentColor: "Blue"
+    colors:
+      abaseColor:
+        red: 51
+        green: 169
+        blue: 244
+        alpha: 1
+      accentColor:
+        red: 250
+        green: 251
+        blue: 37
+        alpha: 1
     compactTreeView: true
     depth: true
     fonts: {}
@@ -12,10 +23,16 @@
     rippleAccentColor: true
     showTabIcons: "Show on active tab"
     tabs:
+      compactTabs: true
       rippleAccentColor: true
       showTabIcons: "Show on all tabs"
+    treeView:
+      blendTabs: true
+      compactList: true
     ui:
       accentColor: "Blue"
+      panelContrast: true
+      panelShadows: true
   "atom-terminal":
     setWorkingDirectory: true
     surpressDirectoryArgument: false
@@ -38,7 +55,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "atom-dark-syntax"
+      "atom-material-syntax"
     ]
   editor:
     invisibles: {}
@@ -68,6 +85,8 @@
       selection: true
       selectionDecorationsZIndex: 0
     scrollAnimation: true
+  "one-dark-ui":
+    layoutMode: "Compact"
   "release-notes":
     viewedVersion: "0.94.0"
   "spell-check": {}
