@@ -1,7 +1,6 @@
 "*":
   "atom-ctags": {}
   "atom-material-ui":
-    accentColor: "Blue"
     colors:
       abaseColor:
         red: 51
@@ -13,24 +12,15 @@
         green: 251
         blue: 37
         alpha: 1
-    compactTreeView: true
     depth: true
     fonts: {}
     panelContrast: true
-    panels:
-      depth: true
-      panelContrast: true
-    rippleAccentColor: true
-    showTabIcons: "Show on active tab"
     tabs:
       compactTabs: true
-      rippleAccentColor: true
-      showTabIcons: "Show on all tabs"
     treeView:
       blendTabs: true
       compactList: true
     ui:
-      accentColor: "Blue"
       panelContrast: true
       panelShadows: true
   "atom-terminal":
