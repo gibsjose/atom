@@ -1,4 +1,5 @@
 "*":
+  "atom-beautify": {}
   "atom-ctags": {}
   "atom-material-ui":
     colors:
@@ -19,7 +20,6 @@
       compactTabs: true
     treeView:
       blendTabs: true
-      compactList: true
     ui:
       panelContrast: true
       panelShadows: true
@@ -34,6 +34,8 @@
     disabledPackages: [
       "terminal-status"
       "symbols-view"
+      "atom-beautify"
+      "clang-format"
     ]
     ignoredNames: [
       ".git"
