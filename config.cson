@@ -1,4 +1,22 @@
 "*":
+  "atom-ctags":
+    autoBuildTagsWhenActive: true
+  "atom-material-ui":
+    accentColor: "Blue"
+    compactTreeView: true
+    depth: true
+    fonts: {}
+    panelContrast: true
+    panels:
+      depth: true
+      panelContrast: true
+    rippleAccentColor: true
+    showTabIcons: "Show on active tab"
+    tabs:
+      rippleAccentColor: true
+      showTabIcons: "Show on all tabs"
+    ui:
+      accentColor: "Blue"
   "atom-terminal":
     setWorkingDirectory: true
     surpressDirectoryArgument: false
@@ -9,11 +27,15 @@
   core:
     disabledPackages: [
       "terminal-status"
+      "symbols-view"
     ]
     ignoredNames: [
       ".git"
       ".svn"
       ".DS_Store"
+    ]
+    packagesWithKeymapsDisabled: [
+      "atom-ctags"
     ]
     themes: [
       "atom-material-ui"
