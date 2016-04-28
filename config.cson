@@ -1,6 +1,4 @@
 "*":
-  "atom-beautify": {}
-  "atom-ctags": {}
   "atom-material-ui":
     colors:
       abaseColor:
@@ -31,12 +29,6 @@
     maxVisibleSuggestions: 4
     suggestionListFollows: "Word"
   core:
-    disabledPackages: [
-      "terminal-status"
-      "symbols-view"
-      "atom-beautify"
-      "clang-format"
-    ]
     ignoredNames: [
       ".git"
       ".svn"
