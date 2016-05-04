@@ -18,6 +18,7 @@
     disabledPackages: [
       "terminal-status"
       "symbols-view"
+      "vim-mode"
     ]
     ignoredNames: [
       ".git"
