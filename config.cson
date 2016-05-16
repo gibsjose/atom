@@ -82,6 +82,9 @@
     sortFoldersBeforeFiles: false
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnlyLines: true
+    removeTrailingWhitespace: false
 ".fish.source":
   editor:
     preferredLineLength: 128
