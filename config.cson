@@ -29,7 +29,7 @@
       "atom-ctags"
     ]
     themes: [
-      "atom-material-ui"
+      "isotope-ui"
       "atom-dark-syntax"
     ]
   editor:
