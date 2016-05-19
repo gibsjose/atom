@@ -71,6 +71,9 @@
     scrollAnimation: true
   "one-dark-ui":
     layoutMode: "Compact"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "release-notes":
     viewedVersion: "0.94.0"
   "spell-check": {}
