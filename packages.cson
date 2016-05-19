@@ -14,6 +14,7 @@ packages: [
   "git-plus"
   "gitignore-snippets"
   "highlight-selected"
+  "imdone-atom"
   "language-arm"
   "language-awk"
   "language-fish-shell"
