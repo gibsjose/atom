@@ -35,6 +35,7 @@ packages: [
   "octocat-syntax"
   "package-sync"
   "pdf-view"
+  "pigments"
   "seti-syntax"
   "seti-ui"
   "sort-lines"
