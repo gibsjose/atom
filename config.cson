@@ -39,7 +39,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "atom-material-syntax-dark"
+      "atom-dark-syntax"
     ]
   editor:
     invisibles: {}
