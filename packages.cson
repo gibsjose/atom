@@ -12,6 +12,7 @@ packages: [
   "file-icons"
   "git-diff-details"
   "git-plus"
+  "highlight-selected"
   "language-arm"
   "language-awk"
   "language-fish-shell"
