@@ -29,7 +29,7 @@ monokai@0.18.0
 octocat-syntax@0.1.5
 pdf-view@0.50.0
 seti-syntax@1.0.1
-seti-ui@1.1.2
+seti-ui@1.2.2
 sort-lines@0.14.0
 split-diff@0.8.3
 terminal-status@1.6.8
