@@ -1,12 +1,26 @@
 "*":
-  "atom-ctags":
-    autoBuildTagsWhenActive: true
   "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 51
+        green: 169
+        blue: 244
+        alpha: 1
+      accentColor:
+        red: 250
+        green: 251
+        blue: 37
+        alpha: 1
     depth: true
     fonts: {}
     panelContrast: true
-    tabs: {}
-    ui: {}
+    tabs:
+      compactTabs: true
+    treeView:
+      blendTabs: true
+    ui:
+      panelContrast: true
+      panelShadows: true
   "atom-terminal":
     setWorkingDirectory: true
     surpressDirectoryArgument: false
@@ -14,12 +28,10 @@
     includeCompletionsFromAllBuffers: true
     maxVisibleSuggestions: 4
     suggestionListFollows: "Word"
+  "color-picker":
+    preferredFormat: "HEX"
+    uppercaseColorValues: true
   core:
-    disabledPackages: [
-      "terminal-status"
-      "symbols-view"
-      "vim-mode"
-    ]
     ignoredNames: [
       ".git"
       ".svn"
@@ -29,12 +41,12 @@
       "atom-ctags"
     ]
     themes: [
-      "isotope-ui"
-      "atom-dark-syntax"
+      "atom-material-ui"
+      "mordor-syntax"
     ]
   editor:
     invisibles: {}
-    preferredLineLength: 128
+    preferredLineLength: 256
     scrollPastEnd: true
     showIndentGuide: true
     softWrap: true
@@ -60,6 +72,14 @@
       selection: true
       selectionDecorationsZIndex: 0
     scrollAnimation: true
+  "one-dark-ui":
+    layoutMode: "Compact"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  pigments:
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
   "release-notes":
     viewedVersion: "0.94.0"
   "spell-check": {}
@@ -71,6 +91,9 @@
     sortFoldersBeforeFiles: false
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnlyLines: true
+    removeTrailingWhitespace: false
 ".fish.source":
   editor:
     preferredLineLength: 128
