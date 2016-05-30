@@ -40,7 +40,6 @@ packages: [
   "seti-syntax"
   "seti-ui"
   "sort-lines"
-  "split-diff"
   "terminal-status"
   "test-syntax"
   "vim-mode"
