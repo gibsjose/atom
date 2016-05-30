@@ -12,6 +12,7 @@ packages: [
   "file-icons"
   "git-diff-details"
   "git-plus"
+  "git-time-machine"
   "gitignore-snippets"
   "highlight-selected"
   "imdone-atom"
@@ -39,7 +40,7 @@ packages: [
   "seti-syntax"
   "seti-ui"
   "sort-lines"
-  "split-diff"
   "terminal-status"
   "test-syntax"
+  "vim-mode"
 ]
