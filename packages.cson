@@ -12,6 +12,7 @@ packages: [
   "file-icons"
   "git-diff-details"
   "git-plus"
+  "git-time-machine"
   "gitignore-snippets"
   "highlight-selected"
   "imdone-atom"
@@ -42,4 +43,5 @@ packages: [
   "split-diff"
   "terminal-status"
   "test-syntax"
+  "vim-mode"
 ]
