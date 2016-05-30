@@ -25,26 +25,37 @@
     setWorkingDirectory: true
     surpressDirectoryArgument: false
   "autocomplete-plus":
+    confirmCompletion: "tab"
+    enableAutoConfirmSingleSuggestion: false
     includeCompletionsFromAllBuffers: true
-    maxVisibleSuggestions: 4
+    maxVisibleSuggestions: 8
     suggestionListFollows: "Word"
   "color-picker":
     preferredFormat: "HEX"
     uppercaseColorValues: true
   core:
+    disabledPackages: [
+      "vim-mode"
+      "line-ending-selector"
+      "encoding-selector"
+    ]
     ignoredNames: [
       ".git"
       ".svn"
-      ".DS_Store"
+      "*.DS_Store"
+      "._*"
+      "*~"
     ]
     packagesWithKeymapsDisabled: [
       "atom-ctags"
     ]
+    projectHome: "/Users/Joe/Desktop"
     themes: [
       "atom-material-ui"
       "mordor-syntax"
     ]
   editor:
+    fontFamily: "menlo"
     invisibles: {}
     preferredLineLength: 256
     scrollPastEnd: true
@@ -52,12 +63,22 @@
     softWrap: true
     softWrapAtPreferredLineLength: true
     tabLength: 4
+    tabType: "soft"
   "exception-reporting":
     userId: "b44988c5-51c9-a879-6ce4-37d7ffd92869"
+  "file-icons": {}
+  "git-diff":
+    showIconsInEditorGutter: true
   "git-plus": {}
+  "grammar-selector": {}
+  "imdone-atom":
+    openIn: {}
   "markdown-pdf":
     format: "Letter"
     rendering: "Marked"
+  "markdown-preview":
+    breakOnSingleNewline: true
+    openPreviewInSplitPane: false
   "markdown-preview-plus": {}
   "merge-conflicts":
     gitPath: "/usr/bin/git"
@@ -80,6 +101,12 @@
   pigments:
     extendAutocompleteToColorValue: true
     extendAutocompleteToVariables: true
+    supportedFiletypes: [
+      "*.less"
+      "*.css"
+      "*.html"
+      "*.js"
+    ]
   "release-notes":
     viewedVersion: "0.94.0"
   "spell-check": {}
@@ -89,11 +116,8 @@
   "tree-view":
     hideIgnoredNames: true
     sortFoldersBeforeFiles: false
+  "vim-mode": {}
   welcome:
     showOnStartup: false
   whitespace:
     ignoreWhitespaceOnlyLines: true
-    removeTrailingWhitespace: false
-".fish.source":
-  editor:
-    preferredLineLength: 128
