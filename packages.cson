@@ -41,6 +41,5 @@ packages: [
   "seti-ui"
   "sort-lines"
   "terminal-status"
-  "test-syntax"
   "vim-mode"
 ]
