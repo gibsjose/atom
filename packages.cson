@@ -38,7 +38,6 @@ packages: [
   "pdf-view"
   "pigments"
   "seti-syntax"
-  "seti-ui"
   "sort-lines"
   "terminal-status"
   "vim-mode"
