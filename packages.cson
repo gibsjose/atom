@@ -1,6 +1,7 @@
 packages: [
   "advanced-open-file"
   "atom-dark-fusion-syntax"
+  "atom-fuzzy-grep"
   "atom-material-syntax"
   "atom-material-syntax-dark"
   "atom-material-ui"
