@@ -1,16 +1,10 @@
 "*":
+  "Sublime-Style-Column-Selection":
+    selectKeyTrigger: "Cmd"
   "atom-material-ui":
     colors:
-      abaseColor:
-        red: 51
-        green: 169
-        blue: 244
-        alpha: 1
-      accentColor:
-        red: 250
-        green: 251
-        blue: 37
-        alpha: 1
+      abaseColor: "#33a9f4"
+      accentColor: "#fafb25"
     depth: true
     fonts: {}
     panelContrast: true
@@ -50,10 +44,12 @@
       "atom-ctags"
     ]
     projectHome: "/Users/Joe/Desktop"
+    telemetryConsent: "no"
     themes: [
       "atom-material-ui"
       "mordor-syntax"
     ]
+    useCustomTitleBar: true
   editor:
     fontFamily: "menlo"
     invisibles: {}
@@ -112,6 +108,10 @@
   "spell-check": {}
   tabs:
     enableVcsColoring: true
+  term3:
+    colors:
+      background: "#1f1f1f"
+    titleTemplate: "Terminal"
   "terminal-status": {}
   "tree-view":
     hideIgnoredNames: true
