@@ -24,6 +24,8 @@
     includeCompletionsFromAllBuffers: true
     maxVisibleSuggestions: 8
     suggestionListFollows: "Word"
+  "autocomplete-python":
+    useKite: false
   "color-picker":
     preferredFormat: "HEX"
     uppercaseColorValues: true
