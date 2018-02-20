@@ -34,6 +34,8 @@
       "vim-mode"
       "line-ending-selector"
       "encoding-selector"
+      "background-tips"
+      "Hydrogen"
     ]
     ignoredNames: [
       ".git"
@@ -48,12 +50,13 @@
     projectHome: "/Users/Joe/Desktop"
     telemetryConsent: "no"
     themes: [
-      "atom-material-ui"
-      "mordor-syntax"
+      "one-dark-ui"
+      "sepia-syntax"
     ]
-    useCustomTitleBar: true
+    titleBar: "custom"
   editor:
     fontFamily: "menlo"
+    fontSize: 12
     invisibles: {}
     preferredLineLength: 256
     scrollPastEnd: true
@@ -77,12 +80,14 @@
   "markdown-preview":
     breakOnSingleNewline: true
     openPreviewInSplitPane: false
-  "markdown-preview-plus": {}
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   metrics:
     userId: "6043788440efc131df7b0ab9b99103b97548b3bc"
   minimap:
+    disablePythonDocLinks: true
     plugins:
       "find-and-replace": true
       "find-and-replaceDecorationsZIndex": 0
@@ -91,8 +96,7 @@
       selection: true
       selectionDecorationsZIndex: 0
     scrollAnimation: true
-  "one-dark-ui":
-    layoutMode: "Compact"
+  "one-dark-ui": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
@@ -107,7 +111,12 @@
     ]
   "release-notes":
     viewedVersion: "0.94.0"
-  "spell-check": {}
+  "remote-edit":
+    rememberLastOpenDirectory: true
+  "spell-check":
+    locales: [
+      "en-CA"
+    ]
   tabs:
     enableVcsColoring: true
   term3:
@@ -121,5 +130,4 @@
   "vim-mode": {}
   welcome:
     showOnStartup: false
-  whitespace:
-    ignoreWhitespaceOnlyLines: true
+  whitespace: {}
